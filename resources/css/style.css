@@ -39,7 +39,7 @@ body{
 
 @media only screen and (max-width: 760px) {
   .main-content {
-    top: 2.5625rem;
+    /*top: 2.5625rem;*/
   }
 }
 
@@ -178,6 +178,7 @@ header .mobile {
     align-items: center;
     justify-content: center;
     height: 28rem;
+    padding-left: 0;
   }
 
   #sign-up-cta {
@@ -208,10 +209,11 @@ header .mobile {
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
+    padding-left: 0;
   }
 
   #sign-up-cta h1 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   #sign-up-cta h2 {
@@ -276,6 +278,7 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   #features-section {
+    width: 100%;
     flex-flow: column;
     padding: 0;
   }
